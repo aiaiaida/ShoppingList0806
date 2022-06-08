@@ -1,0 +1,14 @@
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.exe
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.deps.json
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.runtimeconfig.json
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.runtimeconfig.dev.json
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.dll
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\bin\Debug\netcoreapp3.1\ShoppingList0806.pdb
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.csproj.AssemblyReference.cache
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.AssemblyInfoInputs.cache
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.AssemblyInfo.cs
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.csproj.CoreCompileInputs.cache
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.dll
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.pdb
+C:\Users\Aada\source\repos\AWACADEMY\KoulutusWeek1\ShoppingList0806\ShoppingList0806\obj\Debug\netcoreapp3.1\ShoppingList0806.genruntimeconfig.cache
