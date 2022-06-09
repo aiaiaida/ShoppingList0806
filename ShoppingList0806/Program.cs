@@ -20,23 +20,37 @@ namespace ShoppingList0806
                     // if file exists, firstly return all items to user
                     // then ask for input and use append method
                     Console.Clear();
+                    Console.WriteLine("File Found!");
                     Console.WriteLine("The shopping list already has the following items");
                     ReadPrintText(path);
-                    string userInput = AskingForInput(out addItems);
-                    File.AppendAllText(path, userInput + Environment.NewLine);
+                    Console.WriteLine("Do you want to delete it? yes / no");
+                    string deleteOrNot = Console.ReadLine();
+                    if (deleteOrNot.ToLower() == "yes")
+                    {
+                        Console.WriteLine("Deleted successfully! Now you can create a new list by adding an item to it!");
+                        string userInputAfterDel = AskingForInput(out addItems);
+                        CreateAndWriteFile(path, userInputAfterDel);
+                    }
+                    else
+                    {
+                        string userInput = AskingForInput(out addItems);
+                        File.AppendAllText(path, userInput + Environment.NewLine);
+                    }
+
                 }
                 // if file doesn't exit, ask for user input
                 // create a new file and write into it 
                 else
                 {
+                    Console.WriteLine("File not found! Creating one...");
                     string userInput = AskingForInput(out addItems);
                     CreateAndWriteFile(path, userInput);
                 }
 
                 // return all the items to user after input
                 Console.WriteLine("Your shopping list looks like this now!");
-                Console.WriteLine(" Press any key to continue.");
                 ReadPrintText(path);
+                Console.WriteLine("Press any key to continue.");
                 Console.ReadKey();
             }
 
@@ -76,8 +90,17 @@ namespace ShoppingList0806
         {
             using (FileStream fs = File.Create(path))
             {
-                byte[] input = new UTF8Encoding(true).GetBytes(userInput);
-                fs.Write(input, 0, input.Length);
+                //add creation date
+                byte[] infoDate = new UTF8Encoding(true).GetBytes(Convert.ToString(DateTime.Now));
+                fs.Write(infoDate, 0, infoDate.Length);
+                //add a new line
+                byte[] newline = Encoding.ASCII.GetBytes(Environment.NewLine);
+                fs.Write(newline, 0, newline.Length);
+                //add input
+                byte[] info = new UTF8Encoding(true).GetBytes(userInput);
+                fs.Write(info, 0, info.Length);
+                //add another new line
+                fs.Write(newline, 0, newline.Length);
             }
         }
     }
